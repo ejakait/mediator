@@ -22,15 +22,6 @@ fields:
 - type: text
   name: image
   label: image
-- name: body
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: body
 pages:
 - _posts/2022-02-24-about-me.md
 - _posts/khjgjkh.md
