@@ -11,14 +11,16 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
-  name: categories
-  label: categories
-- type: text
-  name: tags
+- name: tags
+  type: tag_list
+  default: []
   label: tags
 - type: text
   name: image
   label: image
+- name: categories
+  type: tag_list
+  default: []
+  label: categories
 pages:
 - _posts/2022-02-24-about-me.md
