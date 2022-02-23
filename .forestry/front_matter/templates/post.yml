@@ -11,6 +11,10 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: categories
+  type: tag_list
+  default: []
+  label: categories
 - name: tags
   type: tag_list
   default: []
@@ -18,10 +22,15 @@ fields:
 - type: text
   name: image
   label: image
-- name: categories
-  type: tag_list
-  default: []
-  label: categories
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: body
 pages:
 - _posts/2022-02-24-about-me.md
 - _posts/khjgjkh.md
