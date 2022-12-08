@@ -6,11 +6,11 @@ gems:
 # Site settings
 title: "Caleb Ejakait"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   
 
 email: caleb@ejakait.me
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/caleb-logo.PNG"
 float_logo: true # true, false (default)
 
 # blog cover
